@@ -2,6 +2,9 @@ import styled from 'styled-components';
 import { FaHashtag } from 'react-icons/fa';
 
 export const Container = styled.div`
+  position: sticky;
+  top: 64px;
+  
   > div {
     margin-top: 8px;
     display: flex;
@@ -14,6 +17,7 @@ export const Container = styled.div`
       color: var(--color-link);
       margin-bottom: 10px;
     }
+
     .tag {
       color: var(--color-gray);
       display: flex;
